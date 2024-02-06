@@ -17,7 +17,7 @@
     "types": [
       "node",
       "logform",
-      "cwinston-transport"
+      "winston-transport"
     ],
     "noEmit": true
   },

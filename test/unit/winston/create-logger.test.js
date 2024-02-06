@@ -2,7 +2,7 @@ const cwinston = require("../../../lib/cwinston");
 const assume = require("assume");
 const isStream = require("is-stream");
 const {format} = require("../../../lib/cwinston");
-const TransportStream = require("cwinston-transport");
+const TransportStream = require("winston-transport");
 
 describe('Create Logger', function () {
     it('should build a logger with default values', function () {

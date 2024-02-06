@@ -134,7 +134,7 @@ describe('Console transport', function () {
   });
 });
 
-require('abstract-cwinston-transport')({
+require('abstract-winston-transport')({
   name: 'Console',
   Transport: cwinston.transports.Console
 });

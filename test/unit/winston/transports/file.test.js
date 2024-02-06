@@ -110,7 +110,7 @@ describe('File({ stream })', function () {
   });
 });
 
-require('abstract-cwinston-transport')({
+require('abstract-winston-transport')({
   name: 'File',
   Transport: cwinston.transports.File,
   construct: {

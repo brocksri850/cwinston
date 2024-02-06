@@ -1,9 +1,9 @@
 
 const { createLogger } = require('../');
-const Transport = require('cwinston-transport');
+const Transport = require('winston-transport');
 
 //
-// Inherit from `cwinston-transport` so you can take advantage
+// Inherit from `winston-transport` so you can take advantage
 // of the base functionality and `.exceptions.handle()`.
 //
 class CustomTransport extends Transport {

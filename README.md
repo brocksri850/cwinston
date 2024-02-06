@@ -2,7 +2,7 @@
 
 ## Installation
 
-npm install sridhardharmaraj_cwinston
+npm install c_cwinston
 
 ## Usage
 
